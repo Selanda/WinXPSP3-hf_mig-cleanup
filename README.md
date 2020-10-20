@@ -1,5 +1,5 @@
 # WinXPSP3-hf_mig-cleanup
-To save sapce on Windows XP SP3 systems, you can remove certain folders from C:\WINDOWS\$hf_mig$ that were included in the SP3 rollup update. Deletions are limited to those KB numbers detailed in the article “List of fixes that are included in Windows XP Service Pack 3" which was originally found at http://support.microsoft.com/kb/946480/ and can now be viewed using the [Wayback Machine]( https://web.archive.org/web/20120622145025/http://support.microsoft.com/kb/946480/). The table from that page is mirrored below.
+To save sapce on Windows XP SP3 systems, you can remove certain folders from C:\WINDOWS\$hf_mig$ that were included in the SP3 rollup update. Deletions are limited to those KB numbers detailed in the article “List of fixes that are included in Windows XP Service Pack 3" which was originally found at http://support.microsoft.com/kb/946480/ and can now be viewed using the [Wayback Machine]( https://web.archive.org/web/20150311053359/http://support.microsoft.com:80/kb/946480). The table from that page is mirrored below.
 
 KB Number | KB Title | Previous Software Update Type
 --------- | -------- | -----------------------------
@@ -293,7 +293,7 @@ KB Number | KB Title | Previous Software Update Type
 892540 | An unattended RIS-based setup cannot set the time zone to the West Central Africa region when the Setup program installs Windows XP with Service Pack 1 or Windows XP with Service Pack 2 | Hotfix
 892559 | Sounds do not play after you resume Windows from hibernation on a computer that is running Windows XP Service Pack 2 | Hotfix
 892598 | The middle dot character is not centered correctly if you use the Arial Black font or the Impact font on a Windows XP-based computer or on a Windows 2000-based computer with Service Pack 4 | Hotfix
-892627 | Hotfix to enable support for the Simple Boot Flag version 2.1 SUPPRESSBOOTDISPLAY flag in Windows XP Service Pack 2 | Hotfix
+892627 |  Hotfix to enable support for the Simple Boot Flag version 2.1 SUPPRESSBOOTDISPLAY flag in Windows XP Service Pack 2 | Hotfix
 892763 | FIX: Windows Media Player 9 Series may ignore a fractional STARTTIME value and a fractional DURATION value for a non-English locale | Hotfix
 892850 | Internet Explorer or another program that uses DDE stops responding on a Microsoft Windows 2000-based or Microsoft Windows XP-based computer | Hotfix
 893008 | FIX: Some PAL format digital video cameras are incorrectly detected as NTSC format digital video cameras | Hotfix
@@ -337,7 +337,7 @@ KB Number | KB Title | Previous Software Update Type
 894618 | You experience a delay when you transfer data over a USB port and CPU usage increases to 100 percent on a computer that is running Windows XP with Service Pack 2 | Hotfix
 894685 | Removable devices may not appear when you use the Forgotten Password Wizard or the Password Reset Wizard in Windows XP | Hotfix
 894686 | The Forgotten Password Wizard incorrectly backs up your password to drive C, or you receive a "This disk is not a password reset disk" error message when you try to use the Password Reset Wizard to reset your password in Windows XP | Hotfix
-894794 | Security permissions for a service are not correctly set when you use a Group Policy object to modify service settings on a Windows XP Service Pack 2-based computer | Hotfix
+894794 |  Security permissions for a service are not correctly set when you use a Group Policy object to modify service settings on a Windows XP Service Pack 2-based computer | Hotfix
 894871 | When you use the System Preparation tool and the Sysprep.inf file to update drivers on a Microsoft Windows XP image, the File Signature Verification tool may report that some drivers are not digitally signed | Hotfix
 894872 | You cannot enter any characters in the User name box and the Password box in the Log On dialog box for Windows Server 2003 or for Windows XP Service Pack 2 | Hotfix
 895109 | You cannot use the command history when you use the Remote Shell utility in Windows 2000 with Service Pack 4 or in Windows XP with Service Pack 2 | Hotfix
@@ -746,7 +746,6 @@ KB Number | KB Title | Previous Software Update Type
 918997 | Developers cannot create wireless client programs that manage wireless profiles and connections over the Wireless Zero Configuration service in Microsoft Windows XP Service Pack 2 (SP2) | Hotfix
 919007 | MS06-052: Vulnerability in Pragmatic General Multicast (PGM) could result in remote code execution | Security
 919071 | FIX: Flickering may occur after seeking when you play back interlaced content through the Video Mixer Renderer 9 (VMR9) with DXVA enabled in Windows XP | Hotfix
-919237 | You may experience slow performance when you view a Web page that uses JScript in Internet Explorer 6 | Hotfix
 919250 | The DhcpRequestParams function returns ERROR_SUCCESS and no data in Windows XP with Service Pack 2 or in Windows XP Tablet PC Edition 2005 | Hotfix
 919408 | The computer registers with the secondary WINS server even though the primary WINS server is fully operational when the computer switches the primary and secondary WINS server settings | Hotfix
 919477 | WinHTTP may not connect through a proxy server if proxy auto-configuration is used for Internet Explorer connectivity in Windows XP | Hotfix
@@ -763,7 +762,6 @@ KB Number | KB Title | Previous Software Update Type
 920342 | An update is available to upgrade PNRP to PNRP version 2.0 for computers that are running Microsoft Windows XP | Hotfix
 920605 | Internet Explorer 6 may stop responding and does not display images in a Web page on a Windows XP Service Pack 2-based computer | Hotfix
 920670 | MS06-050: Vulnerabilities in Microsoft Windows Hyperlink Object Library could allow remote code execution | Security
-920681 | FIX: The AutoComplete box may not appear in the correct location when you view a Web page in Internet Explorer 6 that contains an <iframe> element that is in a table | Hotfix
 920683 | MS06-041: Vulnerability in DNS resolution could allow remote code execution | Security
 920685 | MS06-053: Vulnerability in Indexing Service could allow cross-site scripting | Security
 920867 | Error message when you import a catalog in Commerce Server 2007 on a Windows XP-based computer: "The product catalog was not imported successfully" | Hotfix
@@ -824,7 +822,6 @@ KB Number | KB Title | Previous Software Update Type
 923845 | An update package for Background Intelligent Transfer Service (BITS) is now available for Windows Server 2003 and for Windows XP | Hotfix
 923966 | The pen service does not exclude certain HID digitizers on a Windows XP Tablet PC Edition 2005-based Tablet PC | Hotfix
 923980 | MS06-066: Vulnerability in the Client Service could allow remote code execution | Security
-923996 | When you visit a Web page that uses a custom pop-up object, Internet Explorer 6 closes unexpectedly | Hotfix
 924051 | Disc recording software stops responding when you try to burn a disc on a Windows XP-based computer | Hotfix
 924065 | An access violation may occur when you print a Web page from Internet Explorer on a Windows XP Service Pack 2-based computer | Hotfix
 924078 | You receive an error message when you try to open the Properties dialog box for a network printer on a Windows XP-based computer or on a Windows Server 2003-based computer | Hotfix
@@ -976,7 +973,7 @@ KB Number | KB Title | Previous Software Update Type
 933876 | The USN journal record contains an incorrect file name when you move a file in Windows Vista, in Windows Server 2003, or in Windows XP | Hotfix
 934161 | Error message when you try to view the effective permissions for a domain-migrated user account on a Windows XP Service Pack 2-based computer: "Windows cannot calculate the effective permissions for <User_Name>" | Hotfix
 934205 | The ATA PASS THRU request is unsuccessful on a Windows XP-based computer or a Windows Server 2003-based computer | Hotfix
-934428 | Hotfix for Windows XP that adds support for SDHC cards that have a capacity of more than 4 GB | Hotfix
+934428 |  Hotfix for Windows XP that adds support for SDHC cards that have a capacity of more than 4 GB | Hotfix
 934720 | FIX: The SQLState section and the NativeError section are missing when you receive an error message in an ADO application on a computer that is running Windows XP | Hotfix
 934849 | FIX: A COM+ application that is running on a Windows Server 2003-based computer stops responding and some work items that are queued in the MTA thread pool are not completed | Hotfix
 935192 | Error message when you resume a Windows XP-based computer from hibernation after you apply hotfix 918005: "Stop 0x00000044" | Hotfix
@@ -1024,7 +1021,7 @@ KB Number | KB Title | Previous Software Update Type
 938464 | MS08-052: Description of the security update for GDI+ for all editions of Windows XP, of Windows Vista, of Windows Server 2003, and of Windows Server 2008 and for Windows Server 2000 with Internet Explorer 6 SP1 | Security
 938512 | Error message when you perform a surprise removal of a USB device on a Windows XP Service Pack 2-based computer: "STOP 0x000000CE" DRIVER_UNLOADED_WITHOUT_CANCELLING_PENDING_OPERATIONS | Hotfix
 938566 | Error code when you run a network program that uses a Winsock connection on a computer that is running Windows XP: "WSAECONNABORTED (10053)" | Hotfix
-938596 | Hotfix adds new functionality to suppress Plug and Play-related UI messages in Windows Server 2003 or in Windows XP | Hotfix
+938596 |  Hotfix adds new functionality to suppress Plug and Play-related UI messages in Windows Server 2003 or in Windows XP | Hotfix
 938635 | The Open and the Save As common dialog boxes may display files that do not match the selected file filter on a Windows XP-based or on a Windows Server 2003-based computer | Hotfix
 938828 | Error message when the Explorer.exe process crashes on a Windows XP SP2-based computer: "STOP 0xc0000005" | Hotfix
 938829 | MS07-046: Vulnerability in GDI could allow remote code execution | Security
@@ -1044,7 +1041,6 @@ KB Number | KB Title | Previous Software Update Type
 939884 | A GDI handle leak occurs in Windows XP and in Windows Server 2003 when an application frequently calls the CreateRectRgn function | Hotfix
 939941 | Problems may occur when you try to use POST method or the GET method to pass Form data in a Web page in Internet Explorer 7 or in Internet Explorer 6 | Hotfix
 939947 | An access violation may occur when JavaScript code runs in Internet Explorer on a Windows XP-based computer | Hotfix
-940072 | When you browse from one Web site to a different Web site in Internet Explorer 6 on a Windows XP-based computer, Internet Explorer 6 crashes | Hotfix
 940086 | Stop error message if you use two USB streaming-video cameras at the same time on a Windows XP Service Pack 2-based computer: "STOP 0x000000FE" | Hotfix
 940275 | Several problems may occur after you install security update 930178 (MS07-021) on a Windows XP SP2-based computer | Hotfix
 940277 | When Internet Explorer 6 is installed on a Windows XP-based computer, it takes longer than expected to browse the subfolders in the Favorites folder and to open a network share that is mapped to a toolbar | Hotfix
