@@ -1,5 +1,5 @@
 # WinXPSP3-hf_mig-cleanup
-To save sapce on Windows XP SP3 systems, you can remove certain folders from C:\WINDOWS\$hf_mig$ that were included in the SP3 rollup update. Deletions are limited to those KB numbers detailed in the article “List of fixes that are included in Windows XP Service Pack 3" which was originally found at http://support.microsoft.com/kb/946480/ and can now be viewed using the [Wayback Machine]( https://web.archive.org/web/20150311053359/http://support.microsoft.com:80/kb/946480). The table from that page is mirrored below.
+To save sapce on Windows XP SP3 systems, you can remove folders from C:\WINDOWS\$hf_mig$ for KBs that were included in the SP3 rollup update. Deletions are limited to those KB numbers detailed in the article “List of fixes that are included in Windows XP Service Pack 3" which was originally found at http://support.microsoft.com/kb/946480/ and can now be viewed using the [Wayback Machine]( https://web.archive.org/web/20150311053359/http://support.microsoft.com:80/kb/946480). The table from that page is mirrored below.
 
 KB Number | KB Title | Previous Software Update Type
 --------- | -------- | -----------------------------
